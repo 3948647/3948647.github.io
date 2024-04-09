@@ -1,0 +1,52 @@
+/* /* h1 {
+    color:rgb(205, 172, 239);
+} */
+/* h1 {
+    color:pink;
+    text-align: left;
+    font-size: 1.5px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+h2 {
+    color:rgb(224, 50, 111);
+}
+p {
+    color:rgb(71, 7, 131);
+}
+ul {
+    color:rgb(85, 14, 152);
+}
+span {
+    color:rgb(243, 80, 145);
+}
+/* * {
+    color:aquamarine
+/* } */
+.my-colors {
+    color:rgb(243, 80, 145);
+}
+#venue {
+    color:rgb(231, 32, 141);
+}
+[data-email="email"] {
+    color:purple;
+}
+
+ul > li {
+    color:pink
+}
+li > strong {
+    color:rgb(225, 65, 132);
+}
+
+body {
+    text-align: center;
+    border: 5px solid red;
+    width: 400px;
+}
+
+p {
+    line: height 1.5px;;
+}  */
+ */
