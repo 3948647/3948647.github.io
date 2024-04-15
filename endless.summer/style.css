@@ -16,9 +16,15 @@ h1{
   }
 
   body {
+    background-image: linear-gradient(to bottom, #136ef9, #4f8eff, #7cacff, #a8caff, #d6e7ff);
+    
     /* padding-left: 2%; */
-    text-align: center;
+    /* text-align: center; */
     /* border: 5px solid red; */
     /* width: 400px; */
-    background-image: linear-gradient(to bottom, #136ef9, #4f8eff, #7cacff, #a8caff, #d6e7ff);
+}
+
+p{
+    text-align: left;
+    color:white
 }
