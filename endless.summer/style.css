@@ -20,17 +20,27 @@ h1{
     font-weight: 700;
     font-style: normal;
   }
-  
+
   body {
     background-image: linear-gradient(to bottom, #8ad7ff, #b3c1ff, #f8a0ea, #ff869b, #ff913e);
-    background-repeat: no-repeat;
-    /* padding-left: 2%; */
-    /* text-align: center; */
-    /* border: 5px solid red; */
-    /* width: 400px; */
 }
 
 p{
     text-align: left;
     color:white
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.portfolio > img {
+  align-self: center;
+  justify-self: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
