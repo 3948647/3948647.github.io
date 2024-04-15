@@ -15,9 +15,15 @@ h1{
     font-style: normal;
   }
 
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
   body {
-    background-image: linear-gradient(to bottom, #136ef9, #4f8eff, #7cacff, #a8caff, #d6e7ff);
-    
+    background-image: linear-gradient(to bottom, #8ad7ff, #b3c1ff, #f8a0ea, #ff869b, #ff913e);
+    background-repeat: no-repeat;
     /* padding-left: 2%; */
     /* text-align: center; */
     /* border: 5px solid red; */
