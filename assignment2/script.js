@@ -193,7 +193,7 @@ document.addEventListener("fullscreenchange", function () {
     console.log("Entered fullscreen");
   } else {
     console.log("Exited fullscreen");
-  }
+  } 
 });
 }
 

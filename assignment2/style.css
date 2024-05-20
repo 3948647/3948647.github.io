@@ -3,7 +3,7 @@
     --text-color: #2f2e2e;
     --main-bg-color: hsl(24, 100%, 50%);
     --main-text-color: #fff;
-    --main-btn-bg-color: #938989;
+    --main-btn-bg-color: #a3a3a3;
   }
   
   body,
@@ -139,5 +139,5 @@
     border: none;
   }
 
-
+ 
 /* I picked the colours as they match the craft that is in the video they are also quite fun and youthful.  */
