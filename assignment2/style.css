@@ -1,7 +1,7 @@
 :root {
-    --primary-bg-color: #f4f4f4;
-    --text-color: #333;
-    --main-bg-color: #333;
+    --primary-bg-color: #afe5f3;
+    --text-color: #2f2e2e;
+    --main-bg-color: hsl(24, 100%, 50%);
     --main-text-color: #fff;
     --main-btn-bg-color: #938989;
   }
@@ -15,7 +15,7 @@
   }
   
   body {
-    font-family: "Arial", sans-serif;
+    font-family: "Lato", sans-serif;
     background-color: var(--primary-bg-color);
     color: var(--text-color);
     line-height: 1.6;
@@ -31,7 +31,7 @@
   .container {
     max-width: 1000px;
     width: 100%;
-    padding: 10px;
+    padding: 100px;
   }
   
   /* Header styling */
@@ -50,13 +50,16 @@
   }
   
   nav ul {
-    list-style: none;
+    list-style: square;
     display: flex;
     justify-content: center;
   }
   
   nav ul li {
     margin-right: 20px;
+    list-style: square;
+    display: flex;
+    justify-content: center;
   }
   
   nav a {
@@ -68,10 +71,12 @@
   .media-player {
     width: 100%;
     margin: 0 auto;
+    justify-content: center;
   }
   
   .media-player video {
     max-width: 100%;
+    justify-content: center;
   }
   
   .custom-controls {
@@ -118,3 +123,21 @@
     padding: 10px 0;
     width: 100%;
   }
+
+  .video-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .video-title h1 {
+    font-size: 1.2rem;
+  }
+
+  .timeline button {
+    padding: 0 10px;
+    background-color: #d5cea3;
+    border: none;
+  }
+
+
+/* I picked the colours as they match the craft that is in the video they are also quite fun and youthful.  */
