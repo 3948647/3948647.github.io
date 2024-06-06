@@ -23,3 +23,8 @@ function removeMe() {
 function toggleMe() {
   myImg.classList.toggle("round");
 }
+
+driverdetails.addEventListener("click", function() { 
+  var hiddenText = document.getElementById("hiddenText"); 
+  hiddenText.style.display = "block"; 
+}); 
