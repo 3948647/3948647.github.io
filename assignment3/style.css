@@ -6,7 +6,8 @@ h1{
 body{
     background-color: #bd0606cd;
     font-family: "Lato", sans-serif;
-    padding: 1rem;
+    padding: 2rem;
+    padding-left: 20rem;
 }
 
 /* Dropdown button styling */
@@ -97,10 +98,12 @@ body{
   }
 
   .portfolio {
+    font-family: Lato-bold, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 1rem;
+    gap: 10rem;
+    color:black
   }
   
   .portfolio > img {
@@ -118,3 +121,55 @@ body{
     /* grid-column: 1/3;
     grid-row: 1/3; */
   }
+
+  .outer {
+    border: none;
+    width: 840px;
+    min-height: 840px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding: 50px;
+    cursor: pointer;
+    border: none;
+  } */
+  
+  button:hover {
+    background-color: white;
+    /* scale: 0.95; */
+  }
+
+  .inner {
+    background-color: #e33e3e;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    z-index: 1;
+  }
+  .inner p {
+    color: #000000;
+  }
+  
+  .more-info.show {
+    /* display: block; */
+    color:black;
+  } */
+
+  .outer {
+    width: 400px;
+    min-height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
