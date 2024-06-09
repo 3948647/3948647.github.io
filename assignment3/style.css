@@ -3,6 +3,12 @@ h1{
     text-align:center;
 } 
 
+h2{
+  color:#FFFFFF;
+  text-align:center;
+  font-family: "Lato", sans-serif;
+}
+
 body{
     background-color: #bd0606cd;
     font-family: "Lato", sans-serif;
