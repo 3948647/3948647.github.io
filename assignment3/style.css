@@ -7,7 +7,7 @@ body{
     background-color: #bd0606cd;
     font-family: "Lato", sans-serif;
     padding: 2rem;
-    padding-left: 20rem;
+    /* padding-left: 20rem; */
 }
 
 /* Dropdown button styling */
@@ -27,7 +27,7 @@ body{
     float: right;
     position: relative; /* Ensure the dropdown content is positioned relative to this container */
     text-align: left;
-    padding-right: 6rem;
+    padding-right: 4rem;
   }
   
   /* Dropdown content (hidden by default) */
